@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0.1",
+  "name": "piembira/helper-tools",
+  "description": "Helper tools library",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Piem Bira",
+      "email": "piembira@tripin.org"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^5.5|^7.0",
+    "symfony/var-dumper": "^3.2"
+  },
+  "autoload": {
+    "files": [
+      "src/Pb/helpers.php"
+    ],
+    "psr-4": {
+      "Pb\\": "src/Pb"
+    }
+  }
+}
